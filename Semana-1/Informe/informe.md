@@ -48,7 +48,8 @@ Para realizar esta practica el estudiante necesita tener claro los siguientes te
 
 ## 5. Objetivos a alcanzar
 
--Creación de estructura de un proyecto Angular con comandos linux.
+- Creación de estructura de un proyecto Angular con comandos linux.
+- Entendimiento claro sobre la estrucutra de un proyecto Angular.
 
 ## 6. Equipo necesario:
 
@@ -116,9 +117,9 @@ Paso 7: Crear archivos del componente principal
 
 #### Figura 11-Archivos en el main component
 
-## 9. Resultados esperados:
+## 9. Conclusión:
 
-Estructura de un proyecto Angular
+- Usar Linux puede llegar a ser más complicado que usar Windows, especialmente a la hora de crear, editar, eliminar archivos, carpetas, etc., pero, es necesario el conocimiento en el mundo de la programación.
 
 ## 10. Bibliografía
 
