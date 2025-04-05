@@ -63,7 +63,7 @@ Para realizar esta practica el estudiante necesita tener claro los siguientes te
 Paso 1: Creación de carpeta main en donde se albergará la estructura de nuestro proyecto
 
 <p align="center">
-  <img src="./assets/1.png" style="max-width: 800px;">
+  <img src="./assets/1.png" style="max-width: 200px;">
 </p>
 
 ### Figura 6-Carpeta Main
@@ -71,7 +71,7 @@ Paso 1: Creación de carpeta main en donde se albergará la estructura de nuestr
 Paso 2: Crear archivos de configuración de un proyecto Angular
 
 <p align="center">
-  <img src="./assets/2.png" style="max-width: 800px;">
+  <img src="./assets/2.png" style="max-width: 200px;">
 </p>
 
 ### Figura 6-Archivos de configuración
@@ -79,7 +79,7 @@ Paso 2: Crear archivos de configuración de un proyecto Angular
 Paso 3: Creación de carpetas base de un proyecto Angular
 
 <p align="center">
-  <img src="./assets/3.png" style="max-width: 800px;">
+  <img src="./assets/3.png" style="max-width: 200px;">
 </p>
 
 ### Figura 7-Carpetas base
