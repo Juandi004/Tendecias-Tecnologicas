@@ -33,25 +33,19 @@ Este procedimiento se realiza debido a que no tiene mucha lógica que todo el tr
 
 #### Figura 3-Despliegue de apps web
 
-Comando Linux: Un comando Linux es un programa o utilidad que se ejecuta en la línea de comandos. Una línea de comandos es una interfaz que acepta líneas de texto y las procesa en forma de instrucciones para tu ordenador. Cualquier interfaz gráfica de usuario (GUI) no es más que una abstracción de los programas de línea de comandos. Por ejemplo, cuando cierras una ventana haciendo clic en la «X», hay un comando que se ejecuta detrás de esa acción. (Diaz, s.f).
-
-<p align="center">
-  <img src="./assets/11.png" style="max-width: 800px;">
-</p>
-
-#### Figura 4-Comandos Linux
 
 
 ## 4. Conocimientos previos.
 
 Para realizar esta practica el estudiante necesita tener claro los siguientes temas:
 
-- Comandos Linux
+- Comandos básicos de Linux
+- Comandos básicos de Docker
 
 ## 5. Objetivos a alcanzar
 
-- Creación de estructura de un proyecto Angular con comandos linux.
-- Entendimiento claro sobre la estrucutra de un proyecto Angular.
+- Despliegue de dos servidores web basados en la imagen de Nginx.
+- Edición de archivos usando vin o nano.
 
 ## 6. Equipo necesario:
 
@@ -59,11 +53,11 @@ Para realizar esta practica el estudiante necesita tener claro los siguientes te
 
 ## 7. Material de apoyo.
 
-- Video explicativo SGA Semana 1
+- Videos explicativos SGA Semana 2
 
 ## 8. Procedimiento
 
-Paso 1: Creación de carpeta main en donde se albergará la estructura de nuestro proyecto
+Paso 1: Instalación de Docker mediante comandos linux
 
 <p align="center">
   <img src="./assets/docker.png" style="max-width: 200px;">
@@ -71,31 +65,31 @@ Paso 1: Creación de carpeta main en donde se albergará la estructura de nuestr
 
 #### Figura 6-Carpeta Main
 
-Paso 2: Crear archivos de configuración de un proyecto Angular
+Paso 2: Crear dos contenedores mediante comandos de Docker exponiendo dos diferentes puertos.
 
 <p align="center">
-  <img src="./assets/2.png" style="max-width: 200px;">
+  <img src="./assets/contenedores.jpg" style="max-width: 200px;">
 </p>
 
-#### Figura 6-Archivos de configuración
+#### Figura 6-Creación de contenedores Docker
 
-Paso 3: Creación de carpetas base de un proyecto Angular
+Paso 3: Copiar el archivo index.html desde el contenedor nginx1 al sistema anfitrión
 
 <p align="center">
-  <img src="./assets/.png" style="max-width: 200px;">
+  <img src="./assets/copia1.jpg" style="max-width: 200px;">
 </p>
 
-#### Figura 7-Carpetas base
+#### Figura 7-Copiar archivo index.html
 
-Paso 4: Crear subcarpetas dentro de src/
+Paso 4: Editar archivo mediante comando "nano" e insertar información Institucional.
 
 <p align="center">
-  <img src="./assets/4.png" style="max-width: 800px;">
+  <img src="./assets/edit1.png" style="max-width: 800px;">
 </p>
 
-#### Figura 8-Subcarpetas en src/
+#### Figura 8-Edición archivo html
 
-Paso 5: Crear archivos clave de Angular
+Paso 5: 
 
 <p align="center">
   <img src="./assets/5.png" style="max-width: 800px;">
@@ -103,13 +97,13 @@ Paso 5: Crear archivos clave de Angular
 
 #### Figura 9-Archivos clave en Angular
 
-Paso 6: Organizar recursos en assets
+Paso 6: Mostrar resultado en el navegador.
 
 <p align="center">
-  <img src="./assets/6.png" style="max-width: 800px;">
+  <img src="./assets/result1.png" style="max-width: 800px;">
 </p>
 
-#### Figura 10-Recursos en assets/
+#### Figura 10-Resulado contenedor 1
 
 Paso 7: Crear archivos del componente principal
 
@@ -121,7 +115,7 @@ Paso 7: Crear archivos del componente principal
 
 ## 9. Conclusión:
 
-- Usar Linux puede llegar a ser más complicado que usar Windows, especialmente a la hora de crear, editar, eliminar archivos, carpetas, etc., pero, es necesario el conocimiento en el mundo de la programación.
+- La utilización de Docker es muy útil al momento de crear apps de forma individual o independiente (contenedores), haciendo que esea viable en cualquier etapa de desarrollo de una app, desde el proceso de desarrollo hasta producción.
 
 ## 10. Bibliografía
 
