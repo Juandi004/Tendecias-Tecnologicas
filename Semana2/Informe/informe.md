@@ -34,7 +34,6 @@ Este procedimiento se realiza debido a que no tiene mucha lógica que todo el tr
 #### Figura 3-Despliegue de apps web
 
 
-
 ## 4. Conocimientos previos.
 
 Para realizar esta practica el estudiante necesita tener claro los siguientes temas:
@@ -60,10 +59,10 @@ Para realizar esta practica el estudiante necesita tener claro los siguientes te
 Paso 1: Instalación de Docker mediante comandos linux
 
 <p align="center">
-  <img src="./assets/docker.png" style="max-width: 200px;">
+  <img src="./assets/installDocker.png" style="max-width: 200px;">
 </p>
 
-#### Figura 6-Carpeta Main
+#### Figura 4-Instalación de Docker
 
 Paso 2: Crear dos contenedores mediante comandos de Docker exponiendo dos diferentes puertos.
 
@@ -71,7 +70,7 @@ Paso 2: Crear dos contenedores mediante comandos de Docker exponiendo dos difere
   <img src="./assets/contenedores.jpg" style="max-width: 200px;">
 </p>
 
-#### Figura 6-Creación de contenedores Docker
+#### Figura 5-Creación de contenedores Docker
 
 Paso 3: Copiar el archivo index.html desde el contenedor nginx1 al sistema anfitrión
 
@@ -79,7 +78,7 @@ Paso 3: Copiar el archivo index.html desde el contenedor nginx1 al sistema anfit
   <img src="./assets/copia1.jpg" style="max-width: 200px;">
 </p>
 
-#### Figura 7-Copiar archivo index.html
+#### Figura 6-Copiar archivo index.html nginx 1
 
 Paso 4: Editar archivo mediante comando "nano" e insertar información Institucional.
 
@@ -87,31 +86,41 @@ Paso 4: Editar archivo mediante comando "nano" e insertar información Instituci
   <img src="./assets/edit1.png" style="max-width: 800px;">
 </p>
 
-#### Figura 8-Edición archivo html
+#### Figura 7-Edición archivo html
 
-Paso 5: 
 
-<p align="center">
-  <img src="./assets/5.png" style="max-width: 800px;">
-</p>
-
-#### Figura 9-Archivos clave en Angular
-
-Paso 6: Mostrar resultado en el navegador.
+Paso 5: Reiniciar contenedor con "docker restart nginx1" y mostrar resultado en el navegador 
 
 <p align="center">
-  <img src="./assets/result1.png" style="max-width: 800px;">
+  <img src="./assets/result1.jpg" style="max-width: 800px;">
 </p>
 
-#### Figura 10-Resulado contenedor 1
+#### Figura 8-Resulado contenedor 1
 
-Paso 7: Crear archivos del componente principal
+Paso 6: Copiar el archivo html del contenedor nginx 2.
 
 <p align="center">
-  <img src="./assets/7.png" style="max-width: 800px;">
+  <img src="./assets/copia2.jpg" style="max-width: 800px;">
 </p>
 
-#### Figura 11-Archivos en el main component
+#### Figura 10-Copiar archivo index.html nginx 2
+
+Paso 7: Editar archivo html con información personal usando "nano".
+
+<p align="center">
+  <img src="./assets/edit2.jpg" style="max-width: 800px;">
+</p>
+
+#### Figura 10-Edición archivo index.html nginx 2
+
+Paso 8: Reiniciar contenedor con "docker restart nginx2" y mostrar en el navegador.
+
+<p align="center">
+  <img src="./assets/result2.jpg" style="max-width: 800px;">
+</p>
+
+#### Figura 11-Resultado contenedor 2
+
 
 ## 9. Conclusión:
 
