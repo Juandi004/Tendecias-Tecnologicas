@@ -2,7 +2,7 @@
 ## 1. Titulo
 Creación de dos servidores nginx con la utilización de Docker
 ## 2. Tiempo de duración
-2 hora
+2 horas
 ## 3. Fundamentos:
 
 Para la elaboración de este proyecto, es necesario tener en consideración los siguientes conceptos:
