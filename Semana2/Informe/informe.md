@@ -59,7 +59,7 @@ Para realizar esta practica el estudiante necesita tener claro los siguientes te
 Paso 1: Instalación de Docker mediante comandos linux
 
 <p align="center">
-  <img src="./assets/installDocker.png" style="max-width: 200px;">
+  <img src="./assets/installDocker.jpg" style="max-width: 200px;">
 </p>
 
 #### Figura 4-Instalación de Docker
