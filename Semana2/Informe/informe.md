@@ -83,7 +83,7 @@ Paso 3: Copiar el archivo index.html desde el contenedor nginx1 al sistema anfit
 Paso 4: Editar archivo mediante comando "nano" e insertar información Institucional.
 
 <p align="center">
-  <img src="./assets/edit1.png" style="max-width: 800px;">
+  <img src="./assets/edit1.jpg" style="max-width: 800px;">
 </p>
 
 #### Figura 7-Edición archivo html
