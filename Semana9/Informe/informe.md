@@ -32,7 +32,7 @@ Esta práctica replica un entorno real de desarrollo en microservicios, fomentan
 - Utilizar Docker Compose para orquestar la arquitectura
 - Visualizar datos desde el navegador
 
-## 6. Equipo necesari-
+## 6. Equipo necesario
 
 - Computadora con Fedora Linux
 - Docker y Docker Compose instalados
